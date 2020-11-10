@@ -16,7 +16,7 @@ namespace ProductApp.Models
                         Name = "Cookies",
                         Price = 200.45M,
                         Stock = 2,
-                        Image = ""
+                        Image = "https://www.handletheheat.com/wp-content/uploads/2018/02/BAKERY-STYLE-CHOCOLATE-CHIP-COOKIES-9.jpg" 
                     }
             },
 
@@ -27,7 +27,7 @@ namespace ProductApp.Models
                         Name = "Cake",
                         Price = 10.45M,
                         Stock = 2,
-                        Image = ""
+                        Image = "https://www.cakewarehouse.co.nz/image/cache/catalog/frozengroup-1000x1000h.jpg"
                     }
             },
 
@@ -38,7 +38,7 @@ namespace ProductApp.Models
                         Name = "Candy",
                         Price = 11.45M,
                         Stock = 3,
-                        Image = ""
+                        Image = "https://st.depositphotos.com/1064024/3289/i/950/depositphotos_32891271-stock-photo-mixed-colorful-fruit-bonbon.jpg"
                     }
             },
 
