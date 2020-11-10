@@ -1,0 +1,15 @@
+
+
+<div>
+  <h1>Product List</h1>
+
+  <div *ngFor="let product of products">
+    <div>ID: {{product.productId}}</div>
+    <div>Name: {{product.name}}</div>
+    <div>Price: {{product.price}} </div>
+    <div>Stock:{{product.stock}}</div>
+    <img alt="" src="{{ product.image }}" width="10%" height="10%" />
+     <hr/>
+  </div>
+
+</div>
