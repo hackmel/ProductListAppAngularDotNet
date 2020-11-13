@@ -27,17 +27,6 @@ namespace ProductAppTest.Controllers
 
         }
 
-        [Test]
-        public void Return_success()
-        {
-            var result = controller.Get();
-
-            var response = (OkObjectResult)result;
-            var value = (ResponseDto)response.Value;
-
-
-            Assert.IsTrue(value.Status == Status.Success);
-        }
 
         [Test]
         public void Return_OK_reponse()
